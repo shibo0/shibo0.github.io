@@ -18,9 +18,9 @@
 ##############################
 url: https://shibo0.github.io
 baseurl: /
-title: Qi's Site
+title: Caleb
 description: >
-    Tian Qi's Site | 田琦的小站
+    Caleb's Site
 
 
 ## => Language and Timezone
@@ -32,13 +32,13 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  name: Tian Qi
-  email: kitian616@outlook.com
-  twitter: kitian616
-  github:  kitian616
-  googleplus: 101827554735084402671
-  weibo: 234695683
-  douban: kitian616
+  name: Caleb
+  email: 2052866015@qq.com
+  twitter: 
+  github:  shibo0
+  googleplus: 
+  weibo: 
+  douban: 
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
