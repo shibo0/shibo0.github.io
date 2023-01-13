@@ -12,7 +12,7 @@ Success!
 <div class="grid-container">
 <div class="grid grid--p-3">
 <div class="cell cell--12 cell--md-5 cell--lg-4" markdown="1">
-![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_rounded"){:.rounded}
+![Image](https://img-blog.csdnimg.cn/a62e276442c8469baed68690ade81a6e.jpeg "Image_rounded"){:.rounded}
 </div>
 <div class="cell cell--12 cell--md-5 cell--lg-4" markdown="1">
 ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_circle+shadow"){:.circle.shadow}
