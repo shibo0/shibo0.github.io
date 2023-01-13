@@ -1,6 +1,11 @@
 header:
   - title:      博客
     url:        /blog/
+  
+  - title:      Docs
+    url:        /docs/en/quick-start
+    key:        docs
+  
   - titles:
       en:       Archive
       zh:       归档
