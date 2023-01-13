@@ -2,10 +2,6 @@ header:
   - title:      博客
     url:        /blog/
   
-  - title:      Docs
-    url:        https://github.com/shibo0/jekyll-TeXt-theme/tree/master/docs/_docs/en/1.1-quick-start.md
-    key:        docs
-  
   - titles:
       en:       Archive
       zh:       归档
