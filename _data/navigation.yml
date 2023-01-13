@@ -3,7 +3,7 @@ header:
     url:        /blog/
   
   - title:      Docs
-    url:        https://shibo0.github.io/jekyll-TeXt-theme/
+    url:        https://github.com/shibo0/jekyll-TeXt-theme/tree/master/docs/_docs/en/1.1-quick-start.md
     key:        docs
   
   - titles:
