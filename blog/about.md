@@ -5,7 +5,7 @@ key: page-about
 ---
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
-My Name is Huang bo, I am a master in computer science at UCAS in Beijing.
+My Name is Huang bo, I am a master in computer science at UCAS.
 
 ## Research Fields
 
