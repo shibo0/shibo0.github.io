@@ -291,3 +291,8 @@ mathjax_autoNumber: true
 
 **判别(Discriminative)模型**：表示不同类别之间的区别，一般为判别
 函数(Discriminant function)、边界函数或后验概率$P(c|x)$
+
+[//]: # ![请添加图片描述](https://img-blog.csdnimg.cn/4c1489afff2f4774831e01e3ed59ca4e.png)
+<center>
+<img src="https://img-blog.csdnimg.cn/4c1489afff2f4774831e01e3ed59ca4e.png"
+      alt = "" style="zoom:70%"/></center>
