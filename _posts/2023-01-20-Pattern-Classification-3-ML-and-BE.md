@@ -39,9 +39,9 @@ mathjax_autoNumber: true
 
 待估计参数$\theta$是客观存在的，只是未知而已，当$\hat{\theta}$满足$\theta=\hat{\theta}$时，该组观测样本$X=(x_1,...,x_n)$更容易被观测到，我们就说$\hat{\theta}$是$\theta$的极大似然估计值。也即，估计值$\hat{\theta}$使得事件发生的可能性最大。数学描述：
 
-$$L(\theta|X)=p(X|\theta)=p(x_1,...,x_n|\theta)=\prod \limits_{i=1}^n p(x_i|\theta)$$
+$$L(X;\theta)=p(X|\theta)=p(x_1,...,x_n|\theta)=\prod \limits_{i=1}^n p(x_i|\theta)$$
 
-$$\hat{\theta}=\mathop{\arg\max}\limits_{\theta}\ L(\theta|X)$$
+$$\hat{\theta}=\mathop{\arg\max}\limits_{\theta}\ L(X;\theta)$$
 
 ---
 
