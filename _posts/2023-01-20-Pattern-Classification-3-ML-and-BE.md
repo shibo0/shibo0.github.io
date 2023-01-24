@@ -66,9 +66,9 @@ $$L(X;\theta)=\prod \limits_{i=0}^n P(x_i|\theta)=\theta^6(1-\theta)^4$$
 
 ## 3 最大后验概率估计(MAP)
 
-最大后验概率估计，英文为Maximum A Posteriori Estimation，简写为MAP。回到抛硬币的问题，最大似然估计认为使似然函数$P(X\|\theta)$最大的参数$\theta$即为最好的$\theta$，此时最大似然估计是将$\theta$看作固定的值，只是其值未知；最大后验概率分布认为$\theta$是一个随机变量，即$\theta$具有某种概率分布，称为先验分布，求解时除了要考虑似然函数$P(X\|\theta)$之外，还要考虑$\theta$的先验分布$P(\theta)$，因此其认为使$P(X\|\theta)P(\theta)$取最大值的$\theta$就是最好的$\theta$。此时要最大化的函数变为$P(X\|\theta)P(\theta)$，由于$X$的先验分布$P(X)$是固定的（可通过分析数据获得，其实我们也不关心$X$的分布，我们关心的是$\theta$），因此最大化函数可变为$\frac{P(X\|\theta)P(\theta)}{P(X)}$，根据贝叶斯法则，要最大化的函数$\frac{P(X\|\theta)P(\theta)}{P(X)}=P(\theta\|X)$，因此要最大化的函数是$P(\theta\|X)$，而$P(\theta\|X)$是$\theta$的后验概率。最大后验概率估计可以看作是正则化的最大似然估计，当然机器学习或深度学习中的正则项通常是加法，而在最大后验概率估计中采用的是乘法，$P(\theta)$是正则项。在最大似然估计中，由于认为$\theta$是固定的，因此$P(\theta)=1$。最大后验概率估计的公式表示：
+最大后验概率估计，英文为Maximum A Posteriori Estimation，简写为MAP。回到抛硬币的问题，最大似然估计认为使似然函数$P(X\|\theta)$最大的参数$\theta$即为最好的$\theta$，此时最大似然估计是将$\theta$看作固定的值，只是其值未知；最大后验概率分布认为$\theta$是一个随机变量，即$\theta$具有某种概率分布，称为先验分布，求解时除了要考虑似然函数$P(X\|\theta)$之外，还要考虑$\theta$的先验分布$P(\theta)$，因此其认为使$p(X\|\theta)P(\theta)$取最大值的$\theta$就是最好的$\theta$。此时要最大化的函数变为$P(X\|\theta)P(\theta)$，由于$X$的先验分布$P(X)$是固定的（可通过分析数据获得，其实我们也不关心$X$的分布，我们关心的是$\theta$），因此最大化函数可变为$\frac{p(X\|\theta)P(\theta)}{P(X)}$，根据贝叶斯法则，要最大化的函数$\frac{p(X\|\theta)P(\theta)}{P(X)}=P(\theta\|X)$，因此要最大化的函数是$P(\theta\|X)$，而$P(\theta\|X)$是$\theta$的后验概率。最大后验概率估计可以看作是正则化的最大似然估计，当然机器学习或深度学习中的正则项通常是加法，而在最大后验概率估计中采用的是乘法，$P(\theta)$是正则项。在最大似然估计中，由于认为$\theta$是固定的，因此$P(\theta)=1$。最大后验概率估计的公式表示：
 
-$$\mathop{\arg\max}\limits_{\theta} P(\theta|X)=\mathop{\arg\max}\limits_{\theta} \frac{P(X|\theta)P(\theta)}{P(X)} \propto \mathop{\arg\max}\limits_{\theta} P(X|\theta)P(\theta)$$
+$$\mathop{\arg\max}\limits_{\theta} P(\theta|X)=\mathop{\arg\max}\limits_{\theta} \frac{p(X|\theta)P(\theta)}{P(X)} \propto \mathop{\arg\max}\limits_{\theta} p(X|\theta)P(\theta)$$
 
 ## 4 贝叶斯估计
 
