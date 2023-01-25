@@ -126,12 +126,7 @@ $\pi(\theta\|x_1,...,x_n)$被称作后验参数分布（后验概率），使用
 用的最多的是后验期望估计，它一般也直接简称为贝叶斯估计。
 
 
-当$p(\theta\|D)$在$\theta=\hat{\theta}$达到顶点，$p(x\|D)$将会更趋向于$p(x\|\hat{\theta})$。
-
-数据后验分布$p(x\|D)=\int p(x\|\theta)p(\theta\|D)d\theta,\ D=x1,...,x_n$
-
-
-参考：
+**参考：**
 
 [PDF 第六章 贝叶斯估计](http://staff.ustc.edu.cn/~jbs/chapt6.pdf)
 
