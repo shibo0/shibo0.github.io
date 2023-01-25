@@ -208,3 +208,7 @@ $$P(\omega_i|X)\ \propto\ P(\omega_i)\prod \limits_{j=1}^n P(x_j|\omega_i)$$
 利用这个分类规则依次计算待判别样本属于全部分类类别的概率值，得到最大的值：
 
 $$\mathop{\arg\max}\limits_{i} P(\omega_i)\prod \limits_{j=1}^n P(x_j|\omega_i)$$
+
+---
+
+(3个范例带你读懂贝叶斯法则)[https://zhuanlan.zhihu.com/p/75380549]
